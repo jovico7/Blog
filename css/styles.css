@@ -7,15 +7,19 @@ html {
 /* Redimensión de fuente utilizando rem */
 
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
 }
 
 h3 {
+    font-size: 2rem;
+}
+
+a {
     font-size: 2rem;
 }
 
@@ -53,7 +57,7 @@ body {
 }
 
 .column-3 {
-    width: 25%;
+    width: 33.33%;
     float: left;
 }
 
@@ -122,6 +126,25 @@ img {
 
 .padding-s {
     padding: 2%;
+}
+
+article {
+    background-color: rgb(227, 227, 277);
+}
+
+footer {
+    background-color: #495057;
+    color: white;
+}
+
+#lastfooter {
+    background-color: black;
+    margin: 0%;
+}
+
+#lastfooter p {
+    margin: 0;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
