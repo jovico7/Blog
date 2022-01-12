@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     font-family: 'EB Garamond', serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -63,6 +64,17 @@ body {
 
 .column-4 {
     width: 25%;
+    float: left;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+    font-size: medium;
+}
+
+.column-75 {
+    width: 75%;
     float: left;
 }
 
@@ -147,6 +159,10 @@ footer {
     color: white;
 }
 
+.back-white {
+    background-color: white;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
@@ -158,6 +174,10 @@ footer {
         width: 50%;
     }
     #caja-10 {
+        width: 100%;
+    }
+    .column-nav,
+    .column-75 {
         width: 100%;
     }
 }
